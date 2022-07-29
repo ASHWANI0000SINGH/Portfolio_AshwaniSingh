@@ -1,0 +1,170 @@
+
+
+a:link, a:visited {
+  color: white;    
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+a:hover, a:active {
+  color: #1ebba3;
+  transition: height .25s cubic-bezier(.6,0,.4,1);
+  /* border-color: #1ebba3; */
+}
+
+
+.home {
+  width: 100%;
+  /* align-items: center; */
+  /* font-family: "Arial", sans-serif; */
+  font-family:'Times New Roman', Times, serif;
+  color: #3e497a;
+}
+.icon{
+  font-size: 25px;
+}
+.icon-group{
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.about {
+  width: 100%;
+  height: calc(100vh - 100px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #f0f0f0;
+  background-color: #21325e;
+}
+.btn-hire-me{
+  width: 500px;
+  height: 80px;
+  margin: 50px;
+  padding: 20px;
+  font-size: 30px;
+  font-weight: 900;
+  border-radius: 100px;
+}
+.btn-hire-me:hover{
+  color:#000000;
+  /*  background-color:#FFFFFF; */
+  /* background-color: #FFFFFF; */
+  border: 2px solid yellow;
+  background-color: #21325e;
+  color: white;
+  box-shadow: onset;
+
+
+}
+
+.about h2 {
+  /* font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; */
+  font-size: 50px;
+  color: #e9d35b;
+  height: 50px;
+  margin-bottom: 30px;
+  /* margin: 20px; */
+}
+
+
+.about .prompt {
+  width: 40%;
+  font-size: 30px;
+}
+.prompt svg {
+  font-size: 60px;
+  margin: 5px;
+  color: white;
+}
+
+.skills {
+  font-size: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skills h1 {
+  color: #3e497a;
+  margin-top: 20px;
+}
+
+.skills .list {
+  list-style: none;
+  width: 60%;
+}
+
+.list span {
+  font-size: 20px;
+}
+.icon-group{
+  display: flex;
+  flex-direction:column;
+}
+
+@media only screen and (max-width: 1200px) {
+  .about h2 {
+    font-size: 50px;
+    margin-bottom: 70px;
+    /* background-color: red; */
+  }
+  
+}
+
+@media only screen and (max-width: 1000px) {
+  .about h2 {
+    font-size: 30px;
+    margin-bottom: 50px;
+    /* background-color: yellow; */
+  }
+  .navbar_logo{
+    margin-right: 250px;
+    padding: 10px;
+    /* color: red; */
+    /* background-color: red; */
+  }
+
+  .btn-hire-me{
+    width: 400px;
+    height: 80px;
+    margin: 50px;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: 900;
+    border-radius: 100px;
+  }
+
+  .prompt-1 {
+    margin-top: 100px;
+    font-size: 20px;
+    width: 100%;
+    /* background-color: yellow; */
+  }
+  .icon-group{
+    display: none;
+  }
+
+  }
+  .background-img{
+    display: none;
+  }
+
+  .skills {
+    text-align: center;
+    padding: 10px;
+  }
+  .list {
+    padding: 0;
+  }
+
+  .skills h2 {
+    font-size: 30px;
+  }
